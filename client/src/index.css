@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav{
+  background-color: #2bb7d0;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.link2{
+  text-decoration: none;
+  color: blue;
+}
+.title{
+  color: white;
+	font-size: 45px;
+	-webkit-text-stroke: 1px #ff824c;
+}
+
+/* orange #ff824c
+blue #2bb7d0
+yellow #f5cb39 */
+
+.logoBtn{
+  padding-left: 10px;
+  max-inline-size: 140px;
+}
+.navBtn{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.navLogo{
+  justify-content: center;
+  position: relative;
+}
+/* 
+.loginBtn{
+  button: #ff824c;
+} */
+/* .loginCard{
+
+} */
+
+/* CAROUSEL CSS */
+.carouselContainer{
+  background-color: #2bb7d017;
+  padding: 10px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  z-index: 9999;
+  /* height: 1000px; */
+  width: 100%;
+  position: relative;
+ 
+  /* margin: 20px */
+}
+
+
+.footer{
+  background-color: #2bb7d0;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+/* .footerIcons{
+  padding-left: 20px;
+
+} */
+
+/* CREATOR PAGE body*/
+.cardContainer{
+  background-color: #2bb7d017;
+  padding: 10px;
+  /* margin: 20px */
+}
+.creatorCard{
+  background-color: honeydew;
+}
+
+.cardBody {
+  text-align: center;
+}
+
+.creatorTitle{
+  text-align: center;
+  color: #128296;
+  font-weight: 200;
+}
+
+.cardImage{
+  opacity: 0.33;
+}
+
+.captions{
+  /* background-color: #f1e4c0a2; */
+  /* background-color: #2bb7d057; */
+  /* background-color: #1282968c; */
+  color: black;
+  padding: 30px;
+  
+  /* max-inline-size: 900px; */
+
+}
+
+.noBullet{
+  list-style: none;
+  text-indent: 10px;
+}
+
+.space{
+  text-indent: 10px;
+}
+
+.text-center{
+  text-align: center;
+}
+/* .modalTitle{
+  justify-content: center;
+  text-align: center;
+} */
+
+.card-body{
+  justify-content: center;
+  text-align: center;
+  /* background-color: blue; */
+}
+
+.loginCard{
+  justify-content: center;
+  text-align: center;
+}
+
+.form-input{
+  width: 400px;
+  height: 40px;
+}
+
+.card-header{
+  color: #128296fb;
+}
+
+.container{
+  justify-content: center;
+  text-align: center;
+  /* background-color: #2bb7d028; */
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+.moveCard{
+  padding: 150px;
+}
+
+.moveSignCard{
+  padding: 100px;
+}
+
+/* DASHBOARD PAGE */
+.quizBtn{
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .petListCards{
+  justify-content: space-evenly;
+} */
+
+/* .card-body {
+  justify-content: space-between;
+  align-items: center;
+  
+} */
+
+.cards {
+  display: inline-grid;
+  grid-template-columns: 25rem 25rem 25rem;
+  grid-gap: 3rem;
+
+}
+
+/* .cardz{
+  
+} */
+
+.matchTitle{
+  color: #128296fb
+}
+
+/* .flex-column{
+  background-color: yellow;
+} */
